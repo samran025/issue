@@ -6,3 +6,8 @@
 
 ## push branch  ==  git push -u origin branch_name
 
+## Adding config 
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+
