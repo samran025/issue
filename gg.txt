@@ -1,0 +1,8 @@
+## create branch  ==  git branch branch_name
+
+## switch branch  ==  git checkout branch_name
+
+## check working branch ==  git branch
+
+## push branch  ==  git push -u origin branch_name
+
