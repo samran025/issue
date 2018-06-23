@@ -1,0 +1,1 @@
+sudo pip install -i https://pypi.python.org/simple/ --upgrade pip
