@@ -6,3 +6,6 @@
  
  
 apt-key adv --keyserver keys.gnupg.net --recv-keys
+
+apt-get update
+apt-cache search linux-headers
