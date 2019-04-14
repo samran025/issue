@@ -1,0 +1,3 @@
+ grep VERSION /etc/os-release
+ 
+ deb http://old.kali.org/kali moto main non-free contrib
