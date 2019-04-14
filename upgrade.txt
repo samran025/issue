@@ -1,3 +1,8 @@
  grep VERSION /etc/os-release
  
  deb http://old.kali.org/kali moto main non-free contrib
+ 
+ apt-key list | grep "expired:"
+ 
+ 
+apt-key adv --keyserver keys.gnupg.net --recv-keys
