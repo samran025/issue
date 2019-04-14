@@ -9,3 +9,7 @@ apt-key adv --keyserver keys.gnupg.net --recv-keys
 
 apt-get update
 apt-cache search linux-headers
+
+
+vitualbox:
+apt-get update && apt-get install -y linux-headers-$(uname -r)
