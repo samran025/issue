@@ -18,3 +18,12 @@ apt-get update && apt-get install -y linux-headers-$(uname -r)
 
 sudo dhclient eth0
 sudo ifconfig eth0 192.168.0.3/24
+
+
+apt-get clean 
+apt-get autoclean 
+apt-get -f install
+
+If that doesn't work, try to configure any and all existing unpacked and unconfigured packages running
+
+dpkg --configure -a
