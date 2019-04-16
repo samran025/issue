@@ -1,4 +1,7 @@
- grep VERSION /etc/os-release
+
+apt-get install kali-defaults kali-root-login desktop-base xfce4 xfce4-places-plugin xfce4-goodies
+
+grep VERSION /etc/os-release
  
  deb http://old.kali.org/kali moto main non-free contrib
  
