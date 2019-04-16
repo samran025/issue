@@ -27,3 +27,6 @@ apt-get -f install
 If that doesn't work, try to configure any and all existing unpacked and unconfigured packages running
 
 dpkg --configure -a
+
+
+https://superuser.com/questions/479181/ssh-into-virtualbox-guest-connection-refused
