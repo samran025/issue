@@ -29,6 +29,20 @@ apt-get update
 apt-cache search linux-headers
 
 
+
+apt update 
+apt-cache search linux-headers
+Then install the correct package e,g ( this is an example , it depends on the previous output command) :
+
+apt-get install linux-headers-4.8.0-kali1-amd64
+also run;
+
+apt-cache search linux-image
+install it:
+
+apt-get install linux-image-4.8.0-kali1-amd64
+
+
 vitualbox:
 apt-get update && apt-get install -y linux-headers-$(uname -r)
 
